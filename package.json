@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/atirson/clean-architeture-react/issues"
   },
-  "homepage": "https://github.com/atirson/clean-architeture-react#readme"
+  "homepage": "https://github.com/atirson/clean-architeture-react#readme",
+  "devDependencies": {
+    "git-commit-msg-linter": "^4.1.3"
+  }
 }
