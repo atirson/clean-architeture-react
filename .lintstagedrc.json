@@ -1,6 +1,6 @@
 {
   "*.{ts,tsx}": [
     "yarn eslint . --ext .ts --ext .tsx --fix",
-    "npm run test:staged"
+    "yarn test:staged"
   ]
 }
