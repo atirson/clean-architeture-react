@@ -1,5 +1,5 @@
 {
   "*.{ts,tsx}": [
-    "npx eslint . --ext .ts --ext .tsx --fix"
+    "yarn eslint . --ext .ts --ext .tsx --fix"
   ]
 }
