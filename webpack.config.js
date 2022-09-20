@@ -38,9 +38,14 @@ module.exports = {
     ]
   },
   devServer: {
-    contentBase: path.join(__dirname, 'public'),
-    writeToDisk: true,
-    historyApiFallback: true
+    // contentBase: path.join(__dirname, 'public'),
+    // writeToDisk: true,
+    historyApiFallback: true,
+
+    devMiddleware: {
+      writeToDisk: true
+
+    }
   },
   externals: {
     react: 'React',
